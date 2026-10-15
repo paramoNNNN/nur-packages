@@ -14,8 +14,8 @@ rustPlatform.buildRustPackage {
   src = fetchFromGitHub {
     owner = "paramoNNNN";
     repo = "terminal-music-player";
-    rev = "8393df7babceb7cb310f6d1b0754ebf194ec3500";
-    hash = "sha256-u5rwAenekb2HGZp1Bo3PMvf6FmZYK3upCDhzCdYKZs8=";
+    rev = "ab1e802765ad6a12ae799b0e32c3c88067e9a51e";
+    hash = "sha256-mmenQxQLhe4xCRMfiW/3ELEwOKdZe+f7e+qRkOl6eLg=";
   };
   cargoLock.lockFile = ./Cargo.lock;
   # Test the full suite without applying release LTO to every test binary.
